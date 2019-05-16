@@ -1,0 +1,39 @@
+
+#one img{
+  /* height: 850px; */
+  width: 80%;
+  height: 80%;
+}
+.about{
+  font-family: 'Mate SC', serif;
+  padding-top: 50px;
+}
+#bb{
+  padding-top: 90px;
+}
+.best{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#font{
+  font-family: 'Playfair Display SC', serif;
+}
+#prices{
+  font-family: 'Lekton', sans-serif;
+}
+/* .container text-center card{
+  padding-top: 65px;
+} */
+#three{
+  background-image: url(../images/about8.jpg);
+  background-size: cover;
+  height: 720px;
+  color: black;
+}
+#about{
+  padding: 90px;
+}
+.pk{
+  color: black;
+}
