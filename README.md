@@ -3,7 +3,7 @@
 #### By **Nasibo Yussuf, Chelsea Owiti, Roselyne Moraa, Alan Macharia**
 ## Description
 A web application that enables the consumer to: **view** , and  **purchase** cosmetic products.
-##BEHAVIOUR- DRIVEN DEVELOPMENT
+## BEHAVIOUR-DRIVEN DEVELOPMENT
 Behaviour| Input | Output
 ------------| ------------ | ------------
 Purchasing | Card details | Purchase done
