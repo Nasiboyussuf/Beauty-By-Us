@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -26,72 +27,120 @@
   <script src="./js/scripts.js"></script>
   <title>CHECKOUT</title>
 </head>
+
 <body class="text-center">
-    <div class="container col-sm-6 card card-body border-primary mb3 " id="check">
-        <div class="checkout-panel">
-          <!-- <div class="panel-body"> -->
-            <h2 class="title" id="">Checkout</h2>
+  <header>
+    <nav class="navbar fixed-top navbar-toggleable-md navbar-expand-lg scrolling-navbar double-nav">
 
-            
+      <div class="">
+        <a href="/crap/index.html" data-activates="slide-out" class="button-collapse">HOME<i class=""></i></a>
+      </div>
 
-            <div class="payment-method">
-              <label for="card" class="method ">
-                <div class="card-logos">
-                  
-                  <img src="./images/visar.png" />
-                </div>
 
-                <div class="radio-input">
-                  <input id="card" type="radio" name="payment">
-                  Pay £340.00 with credit card
-                </div>
-              </label>
+      <ul class="nav navbar-nav nav-flex-icons ml-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <strong>Foundation</strong>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="/big/foundation.html">High
+              coverage</a>
+            <a class="dropdown-item" href="#">Medium coverage</a>
+            <a class="dropdown-item" href="#">Light coverage</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Concealer
+          </a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item"
+              href="file:///home/moringa/Documents/moringa-school-projects/Concealer/Concealer.html">Yellow
+              undertone</a>
+            <a class="dropdown-item" href="#">Orange undertone</a>
+            <a class="dropdown-item" href="#">Red undertone</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <strong>Extras</strong>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="/collabo/lipsticks.html">Lipsticks</a>
+            <a class="dropdown-item" href="#">Pomades and pencils</a>
+            <a class="dropdown-item" href="#">Brush sets</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container col-sm-6 card card-body border-primary mb3 " id="check">
+    <div class="checkout-panel">
+      <!-- <div class="panel-body"> -->
+      <h2 class="title" id="">Checkout</h2>
 
-              <label for="paypal" class="method paypal">
-                <img src="./images/pay.png" />
-                <div class="radio-input">
-                  <input id="paypal" type="radio" name="payment">
-                  Pay £340.00 with PayPal
-                </div>
-              </label>
+
+
+      <div class="payment-method">
+        <label for="card" class="method ">
+          <div class="card-logos">
+
+            <img src="./images/visar.png" />
+          </div>
+
+          <div class="radio-input">
+            <input id="card" type="radio" name="payment">
+            Pay £340.00 with credit card
+          </div>
+        </label>
+
+        <label for="paypal" class="method paypal">
+          <img src="./images/pay.png" />
+          <div class="radio-input">
+            <input id="paypal" type="radio" name="payment">
+            Pay £340.00 with PayPal
+          </div>
+        </label>
+      </div>
+
+      <div class="input-fields">
+        <div class="column-1">
+          <label for="cardholder">Cardholder's Name</label>
+          <input type="text" id="cardholder" />
+
+          <div class="small-inputs">
+            <div>
+              <label for="date">Valid thru</label>
+              <input type="text" id="date" placeholder="MM / YY" />
             </div>
 
-            <div class="input-fields">
-              <div class="column-1">
-                <label for="cardholder">Cardholder's Name</label>
-                <input type="text" id="cardholder" />
-
-                <div class="small-inputs">
-                  <div>
-                    <label for="date">Valid thru</label>
-                    <input type="text" id="date" placeholder="MM / YY" />
-                  </div>
-
-                  <div>
-                    <label for="verification">CVV / CVC *</label>
-                    <input type="password" id="verification" />
-                  </div>
-                </div>
-
-              </div>
-              <div class="column-2">
-                <label for="cardnumber">Card Number</label>
-                <input type="password" id="cardnumber" />
-
-                <p><span class="info">* CVV or CVC is the card security code, unique three digits number on the
-                  back
-                  of your card separate from its number.</span></p>
-              </div>
-            </div>
-
-          <div class="panel-footer">
-              <button class="btn back-btn">BACK</button>
-              <button class="btn next-btn" id="btn">DONE</button>
+            <div>
+              <label for="verification">CVV / CVC *</label>
+              <input type="password" id="verification" />
             </div>
           </div>
 
         </div>
+        <div class="column-2">
+          <label for="cardnumber">Card Number</label>
+          <input type="password" id="cardnumber" />
+
+          <p><span class="info">* CVV or CVC is the card security code, unique three digits number on the
+              back
+              of your card separate from its number.</span></p>
+        </div>
       </div>
+
+      <div class="panel-footer">
+        <button class="btn back-btn">BACK</button>
+        <button class="btn next-btn" id="btn">DONE</button>
+      </div>
+    </div>
+
+  </div>
+  </div>
 </body>
 
 </html>
