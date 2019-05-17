@@ -1,1 +1,0 @@
-# Beauty-By-Us
