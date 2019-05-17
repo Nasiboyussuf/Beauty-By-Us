@@ -15,7 +15,7 @@ There arent any known bugs but if any are encountered contact us on beautybyus@g
 **JavaScript**
 ## Support and contact details
 Contact us at beautybyus@gmail.com
+Tel no: +254 704567909        
 ### License
-
 Copyright (c) {year} **bEAUTY BY US**
-  
+LIcense MIT-https://opensource.org/licenses/MIT  
